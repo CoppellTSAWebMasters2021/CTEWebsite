@@ -1,0 +1,19 @@
+
+.Wave{
+  position: relative;
+  margin-bottom: -10px;
+}
+.section1{
+  background-image: url("/src/components/assets/Blue.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  content: '';
+  z-index: -1;
+  width: 100%;
+  padding-top: 250px;
+
+
+}
+
