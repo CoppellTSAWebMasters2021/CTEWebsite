@@ -1,4 +1,4 @@
-#nav {
+#nav{
 	width: 100%;
 	float: left;
 	margin: 0 0 3em 0;
@@ -11,13 +11,12 @@
 	align-items: center;
 	background-color: rgb(0, 94, 255);
 	margin-top: 0;
-
 }
 
 #nav > div {
   display: flex;
   justify-content: left;
-  padding: 8px 15px;
+
 
 
 }
@@ -43,7 +42,7 @@
 		text-decoration: none;
 		font-weight: bold;
 		text-shadow: 0px 0px 20px rgb(0,0,0);
-		color: rgb(0, 0, 0);
+		color: rgb(127, 174, 255);
 		border-right: 1px solid #ccc; 
 }
 
@@ -54,3 +53,4 @@
 		color: rgb(255, 255, 255);
 		text-shadow: 0px 0px 20px rgb(0,0,0);
 }
+
