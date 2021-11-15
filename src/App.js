@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 
+
 class App extends Component {
   render() {
     return (
@@ -16,6 +17,8 @@ class App extends Component {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
+
+   
       </BrowserRouter>
     );
   }
