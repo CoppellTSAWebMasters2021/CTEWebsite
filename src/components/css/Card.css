@@ -1,28 +1,36 @@
 .card-container {
-    width: 300px;
+    
     overflow: hidden;
-    box-shadow: 0px 0px 15px -5px rgb(0,0,0);
     transition: 0.5s;
     animation: ease-in-out;
-    scale: 0.9;
+    /* scale: 0.9; */
     background-color: rgb(0, 94, 255);
     color: #fff;
     text-shadow: 0px 0px 1px rgb(0,0,0);
     border-radius: 10px;
-
+    width: fit-content/2;
+    height: 300px;
+    justify-content: center;
+    
     
 }
+
+    
+
 .card-container:hover {
-    transform: scale(0.8);
+    transform: scale(0.95);
     box-shadow: 0px 0px 35px 0px rgb(0, 94, 255);
 }
 .card-content{
     margin: 1rem;
     margin-top: 0.5rem;
+    
+
 }
 h3, p{
     margin: 0;
     padding: 0;
+    
 }
 .card-title > h3{
     font-size: 1.5rem;
@@ -38,7 +46,7 @@ h3, p{
     
 
 }
-.btn button{
+.btn a{
     padding: 0.5rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 94, 255);
@@ -48,8 +56,59 @@ h3, p{
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 3px;
+    text-decoration: none;
+
 
 }
-.btn button:hover{
+.btn a:hover{
     background-color: rgb(127, 174, 255);
+    text-decoration: none;
+
+}
+
+@media screen and (min-width: 300px) {
+    .card-container {
+        width: 90%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-wrap;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .card-container {
+        width: 90%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-wrap;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+    .card-container {
+        width:  90%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-wrap;
+        align-items: center;
+        margin: 10px;
+    }
 }

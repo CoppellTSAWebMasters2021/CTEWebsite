@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Card.css'
 
+
 function Card(props) {
     return (
         <div className="card-container">
@@ -16,7 +17,8 @@ function Card(props) {
             </div>
 
             <div className="btn">
-                <button>{props.btn}</button>
+                {/* <button>{props.btn}</button> */}
+                <a href={props.btn}>Learn More</a>
 
             </div>
 
